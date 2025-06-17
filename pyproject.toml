@@ -40,25 +40,6 @@ exclude = [
   "tools/*"
 ]
 
-[project]
-name = "eyeGestures"
-version = "3.2.4"
-authors = [
-  { name="Piotr Walas", email="piotr.walas@eyegestures.com" },
-]
-maintainers = [
-  { name="Piotr Walas", email="piotr.walas@eyegestures.com" }
-]
-description = "Package for eye tracking algorithm allowing for development of gaze controlled computer interface"
-readme = "README.md"
-license = {file = "LICENSE"}
-requires-python = ">=3.8"
-keywords = ["eyetracking", "eye", "gaze", "tracking", "gazetracking"]
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
-    "Operating System :: OS Independent",
-]
 
 [project.urls]
 Homepage = "https://github.com/NativeSensors/EyeGestures"
