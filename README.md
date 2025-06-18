@@ -12,6 +12,9 @@ tracking.py is the actual project file - if you run it, it creates a .db file fo
 How to?
 ---
 
+ Clone the repo to your local machine:
+ <code> git clone </code>
+
 Create a virtual environment and install requirements:
 
 <code> python -m venv eyeenv </code>
