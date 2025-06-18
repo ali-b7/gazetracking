@@ -13,7 +13,7 @@ How to?
 ---
 
  Clone the repo to your local machine:
- <code> git clone </code>
+ <code> git clone https://github.com/ali-b7/gazetracking.git </code>
 
 Create a virtual environment and install requirements:
 
