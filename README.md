@@ -12,12 +12,17 @@ tracking.py is the actual project file - if you run it, it creates a .db file fo
 How to?
 ---
 
-First, clone the repo to your machine and move to the folder.
-then activate the venv using <code> .\eyeenv\Scripts\Activate.ps1 </code>
+Create a virtual environment and install requirements:
 
-you should see (venv) now in the terminal. 
-next, use <code> pip install -r requirements.txt </code> and make sure everything is installed.
-next, use <code> python tracking.py </code> to run the code.
+<code> python -m venv eyeenv </code>
+<code> eyeenv\Scripts\activate </code>
+<code> pip install -r requirements.txt </code>
+
+Run your app:
+
+python tracking.py
 
 there should appear a black screen first, calibrating with blue dots. 
 then, the face image should appear and track your gaze (here are the problems at the moment)
+
+
